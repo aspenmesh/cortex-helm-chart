@@ -1181,6 +1181,11 @@ purger:
       path: /ready
       port: http-metrics
 
+auth_gateway:
+  enabled: false
+  autoscaling:
+    enabled: false
+
 nginx:
   enabled: true
   replicas: 2
