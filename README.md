@@ -2,7 +2,7 @@
 
 # cortex
 
-![Version: 2.4.0](https://img.shields.io/badge/Version-2.4.0-informational?style=flat-square) ![AppVersion: v1.17.1](https://img.shields.io/badge/AppVersion-v1.17.1-informational?style=flat-square)
+![Version: 2.4.0](https://img.shields.io/badge/Version-2.4.0-informational?style=flat-square) ![AppVersion: v1.18.1](https://img.shields.io/badge/AppVersion-v1.18.1-informational?style=flat-square)
 
 Horizontally scalable, highly available, multi-tenant, long term Prometheus.
 
@@ -13,7 +13,7 @@ Horizontally scalable, highly available, multi-tenant, long term Prometheus.
 | Name | Email | Url |
 | ---- | ------ | --- |
 | Tom Hayward | <thayward@infoblox.com> | <https://github.com/kd7lxl> |
-| Niclas Schad | <Niclas.Schad@mail.schwarz> | <https://github.com/nschad> |
+| Niclas Schad | <niclas.schad@stackit.cloud> | <https://github.com/nschad> |
 
 ## Documentation
 
@@ -439,6 +439,7 @@ Kubernetes: `^1.19.0-0`
 | nginx.&ZeroWidthSpace;config.&ZeroWidthSpace;mainSnippet | string | `""` | arbitrary snippet to inject in the top section of the nginx config |
 | nginx.&ZeroWidthSpace;config.&ZeroWidthSpace;serverSnippet | string | `""` | arbitrary snippet to inject in the server { } section of the nginx config |
 | nginx.&ZeroWidthSpace;config.&ZeroWidthSpace;setHeaders | object | `{}` |  |
+| nginx.&ZeroWidthSpace;config.&ZeroWidthSpace;upstream_protocol | string | `"http"` | protocol for the communication with the upstream |
 | nginx.&ZeroWidthSpace;config.&ZeroWidthSpace;verboseLogging | bool | `true` | Enables all access logs from nginx, otherwise ignores 2XX and 3XX status codes |
 | nginx.&ZeroWidthSpace;containerSecurityContext.&ZeroWidthSpace;enabled | bool | `true` |  |
 | nginx.&ZeroWidthSpace;containerSecurityContext.&ZeroWidthSpace;readOnlyRootFilesystem | bool | `false` |  |

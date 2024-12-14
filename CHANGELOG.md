@@ -2,6 +2,10 @@
 
 ## master / unreleased
 
+* [ENHANCEMENT] Add `nginx.config.upstream_protocol` field to configure the upstream protocol in the nginx configuration #506
+* [BUGFIX] fix: upstream_protocol reference in auth_orgs #509
+* [DEPENDENCY] Update quay.io/cortexproject/cortex Docker tag to v1.18.1 #510
+
 ## 2.4.0 / 2024-07-18
 
 * [CHANGE] Removed the default `livenessProbe` for store-gateway and compactor. You can still use a `livenessProbe` but we advise against it #502
